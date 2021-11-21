@@ -42,6 +42,16 @@
       -->
       <ul id="media" class="clearfix">
           
+            <li data-html="#media1"
+                data-download-url="media/large/2020-03-01_20-47-51_UTC.mp4">
+              <a href="media/large/2020-03-01_20-47-51_UTC.mp4">
+                <img src="media/thumbs/2020-03-01_20-47-51_UTC.jpg"
+                     width="120"
+                     height="120"
+                     alt="2020-03-01_20-47-51_UTC.mp4" />
+              </a>
+              <img class="video-overlay" src="public/play.png" />
+            </li>      
             <li data-src="media/large/profile.JPG"
                 data-sub-html=""
                 data-download-url="media/original/profile.JPG"
@@ -76,6 +86,12 @@
     </div>
     <!-- Video loader -->
     <div id="videos">
+          <div id="media1" style="display:none;">
+            <video class="lg-video-object lg-html5 video-js vjs-default-skin vjs-big-play-centered"  poster="media/large/2020-03-01_20-47-51_UTC.jpg" preload="none" controls>
+              <source src="media/large/2020-03-01_20-47-51_UTC.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video
+            </video>
+          </div>
     </div>
 
     <!-- jQuery -->
